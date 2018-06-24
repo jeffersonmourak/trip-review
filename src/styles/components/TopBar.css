@@ -1,0 +1,15 @@
+.topBar-container {
+  font-family: "bungee",sans-serif;
+  font-style: normal;
+}
+.topBar-container .topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topBar-container .topBar .center {
+  font-weight: 800;
+  font-size: 2em;
+  line-height: 70px;
+}

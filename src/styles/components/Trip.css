@@ -1,0 +1,27 @@
+.trip-form {
+  display: flex;
+  flex-flow: column;
+  font-family: "bungee", sans-serif;
+}
+
+.trip-form-input {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.trip-new-spent-form {
+  border: 1px solid #000;
+  border-radius: 15px;
+  margin: 0 -15px;
+  padding: 0 15px;
+}
+
+.data-columns {
+  display: flex;
+  flex-flow: row;
+}
+
+.data-columns div {
+  flex: 1;
+}

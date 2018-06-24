@@ -1,0 +1,21 @@
+.trip-list {
+  display: flex;
+  flex-flow: column;
+}
+
+.trip-list-item {
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  font-family: "bungee",sans-serif;
+  transition: all 300ms ease;
+}
+
+.trip-list-item:hover {
+  background-color: #ccc;
+}
+
+.trip-list-item a {
+  color: #000;
+  text-decoration: none;
+}
